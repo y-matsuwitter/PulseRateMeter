@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A7D32031683F35D008751BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D32021683F35D008751BB /* UIKit.framework */; };
+		6A7D32051683F35D008751BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D32041683F35D008751BB /* Foundation.framework */; };
+		6A7D32071683F35D008751BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D32061683F35D008751BB /* CoreGraphics.framework */; };
+		6A7D320D1683F35D008751BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A7D320B1683F35D008751BB /* InfoPlist.strings */; };
+		6A7D320F1683F35D008751BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7D320E1683F35D008751BB /* main.m */; };
+		6A7D32131683F35D008751BB /* YMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7D32121683F35D008751BB /* YMAppDelegate.m */; };
+		6A7D32151683F35D008751BB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7D32141683F35D008751BB /* Default.png */; };
+		6A7D32171683F35D008751BB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7D32161683F35D008751BB /* Default@2x.png */; };
+		6A7D32191683F35D008751BB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A7D32181683F35D008751BB /* Default-568h@2x.png */; };
+		6A7D321C1683F35D008751BB /* YMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7D321B1683F35D008751BB /* YMViewController.m */; };
+		6A7D321F1683F35D008751BB /* YMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A7D321D1683F35D008751BB /* YMViewController.xib */; };
+		6A7D32271683F35D008751BB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D32261683F35D008751BB /* SenTestingKit.framework */; };
+		6A7D32281683F35D008751BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D32021683F35D008751BB /* UIKit.framework */; };
+		6A7D32291683F35D008751BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D32041683F35D008751BB /* Foundation.framework */; };
+		6A7D32311683F35D008751BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A7D322F1683F35D008751BB /* InfoPlist.strings */; };
+		6A7D32341683F35D008751BB /* pulseRateMeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7D32331683F35D008751BB /* pulseRateMeterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A7D322A1683F35D008751BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A7D31F51683F35D008751BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A7D31FD1683F35D008751BB;
+			remoteInfo = pulseRateMeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A7D31FE1683F35D008751BB /* pulseRateMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pulseRateMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7D32021683F35D008751BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A7D32041683F35D008751BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A7D32061683F35D008751BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A7D320A1683F35D008751BB /* pulseRateMeter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pulseRateMeter-Info.plist"; sourceTree = "<group>"; };
+		6A7D320C1683F35D008751BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A7D320E1683F35D008751BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A7D32101683F35D008751BB /* pulseRateMeter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pulseRateMeter-Prefix.pch"; sourceTree = "<group>"; };
+		6A7D32111683F35D008751BB /* YMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMAppDelegate.h; sourceTree = "<group>"; };
+		6A7D32121683F35D008751BB /* YMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMAppDelegate.m; sourceTree = "<group>"; };
+		6A7D32141683F35D008751BB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6A7D32161683F35D008751BB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6A7D32181683F35D008751BB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6A7D321A1683F35D008751BB /* YMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMViewController.h; sourceTree = "<group>"; };
+		6A7D321B1683F35D008751BB /* YMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMViewController.m; sourceTree = "<group>"; };
+		6A7D321E1683F35D008751BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/YMViewController.xib; sourceTree = "<group>"; };
+		6A7D32251683F35D008751BB /* pulseRateMeterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pulseRateMeterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A7D32261683F35D008751BB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A7D322E1683F35D008751BB /* pulseRateMeterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pulseRateMeterTests-Info.plist"; sourceTree = "<group>"; };
+		6A7D32301683F35D008751BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A7D32321683F35D008751BB /* pulseRateMeterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pulseRateMeterTests.h; sourceTree = "<group>"; };
+		6A7D32331683F35D008751BB /* pulseRateMeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pulseRateMeterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A7D31FB1683F35D008751BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7D32031683F35D008751BB /* UIKit.framework in Frameworks */,
+				6A7D32051683F35D008751BB /* Foundation.framework in Frameworks */,
+				6A7D32071683F35D008751BB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7D32211683F35D008751BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7D32271683F35D008751BB /* SenTestingKit.framework in Frameworks */,
+				6A7D32281683F35D008751BB /* UIKit.framework in Frameworks */,
+				6A7D32291683F35D008751BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A7D31F31683F35D008751BB = {
+			isa = PBXGroup;
+			children = (
+				6A7D32081683F35D008751BB /* pulseRateMeter */,
+				6A7D322C1683F35D008751BB /* pulseRateMeterTests */,
+				6A7D32011683F35D008751BB /* Frameworks */,
+				6A7D31FF1683F35D008751BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A7D31FF1683F35D008751BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A7D31FE1683F35D008751BB /* pulseRateMeter.app */,
+				6A7D32251683F35D008751BB /* pulseRateMeterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A7D32011683F35D008751BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A7D32021683F35D008751BB /* UIKit.framework */,
+				6A7D32041683F35D008751BB /* Foundation.framework */,
+				6A7D32061683F35D008751BB /* CoreGraphics.framework */,
+				6A7D32261683F35D008751BB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A7D32081683F35D008751BB /* pulseRateMeter */ = {
+			isa = PBXGroup;
+			children = (
+				6A7D32111683F35D008751BB /* YMAppDelegate.h */,
+				6A7D32121683F35D008751BB /* YMAppDelegate.m */,
+				6A7D321A1683F35D008751BB /* YMViewController.h */,
+				6A7D321B1683F35D008751BB /* YMViewController.m */,
+				6A7D321D1683F35D008751BB /* YMViewController.xib */,
+				6A7D32091683F35D008751BB /* Supporting Files */,
+			);
+			path = pulseRateMeter;
+			sourceTree = "<group>";
+		};
+		6A7D32091683F35D008751BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A7D320A1683F35D008751BB /* pulseRateMeter-Info.plist */,
+				6A7D320B1683F35D008751BB /* InfoPlist.strings */,
+				6A7D320E1683F35D008751BB /* main.m */,
+				6A7D32101683F35D008751BB /* pulseRateMeter-Prefix.pch */,
+				6A7D32141683F35D008751BB /* Default.png */,
+				6A7D32161683F35D008751BB /* Default@2x.png */,
+				6A7D32181683F35D008751BB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A7D322C1683F35D008751BB /* pulseRateMeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A7D32321683F35D008751BB /* pulseRateMeterTests.h */,
+				6A7D32331683F35D008751BB /* pulseRateMeterTests.m */,
+				6A7D322D1683F35D008751BB /* Supporting Files */,
+			);
+			path = pulseRateMeterTests;
+			sourceTree = "<group>";
+		};
+		6A7D322D1683F35D008751BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A7D322E1683F35D008751BB /* pulseRateMeterTests-Info.plist */,
+				6A7D322F1683F35D008751BB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A7D31FD1683F35D008751BB /* pulseRateMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A7D32371683F35D008751BB /* Build configuration list for PBXNativeTarget "pulseRateMeter" */;
+			buildPhases = (
+				6A7D31FA1683F35D008751BB /* Sources */,
+				6A7D31FB1683F35D008751BB /* Frameworks */,
+				6A7D31FC1683F35D008751BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pulseRateMeter;
+			productName = pulseRateMeter;
+			productReference = 6A7D31FE1683F35D008751BB /* pulseRateMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A7D32241683F35D008751BB /* pulseRateMeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A7D323A1683F35D008751BB /* Build configuration list for PBXNativeTarget "pulseRateMeterTests" */;
+			buildPhases = (
+				6A7D32201683F35D008751BB /* Sources */,
+				6A7D32211683F35D008751BB /* Frameworks */,
+				6A7D32221683F35D008751BB /* Resources */,
+				6A7D32231683F35D008751BB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A7D322B1683F35D008751BB /* PBXTargetDependency */,
+			);
+			name = pulseRateMeterTests;
+			productName = pulseRateMeterTests;
+			productReference = 6A7D32251683F35D008751BB /* pulseRateMeterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A7D31F51683F35D008751BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = matsumoto;
+			};
+			buildConfigurationList = 6A7D31F81683F35D008751BB /* Build configuration list for PBXProject "pulseRateMeter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A7D31F31683F35D008751BB;
+			productRefGroup = 6A7D31FF1683F35D008751BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A7D31FD1683F35D008751BB /* pulseRateMeter */,
+				6A7D32241683F35D008751BB /* pulseRateMeterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A7D31FC1683F35D008751BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7D320D1683F35D008751BB /* InfoPlist.strings in Resources */,
+				6A7D32151683F35D008751BB /* Default.png in Resources */,
+				6A7D32171683F35D008751BB /* Default@2x.png in Resources */,
+				6A7D32191683F35D008751BB /* Default-568h@2x.png in Resources */,
+				6A7D321F1683F35D008751BB /* YMViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7D32221683F35D008751BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7D32311683F35D008751BB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A7D32231683F35D008751BB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A7D31FA1683F35D008751BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7D320F1683F35D008751BB /* main.m in Sources */,
+				6A7D32131683F35D008751BB /* YMAppDelegate.m in Sources */,
+				6A7D321C1683F35D008751BB /* YMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A7D32201683F35D008751BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7D32341683F35D008751BB /* pulseRateMeterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A7D322B1683F35D008751BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A7D31FD1683F35D008751BB /* pulseRateMeter */;
+			targetProxy = 6A7D322A1683F35D008751BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A7D320B1683F35D008751BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A7D320C1683F35D008751BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A7D321D1683F35D008751BB /* YMViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A7D321E1683F35D008751BB /* en */,
+			);
+			name = YMViewController.xib;
+			sourceTree = "<group>";
+		};
+		6A7D322F1683F35D008751BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A7D32301683F35D008751BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A7D32351683F35D008751BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A7D32361683F35D008751BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A7D32381683F35D008751BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pulseRateMeter/pulseRateMeter-Prefix.pch";
+				INFOPLIST_FILE = "pulseRateMeter/pulseRateMeter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A7D32391683F35D008751BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pulseRateMeter/pulseRateMeter-Prefix.pch";
+				INFOPLIST_FILE = "pulseRateMeter/pulseRateMeter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A7D323B1683F35D008751BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pulseRateMeter.app/pulseRateMeter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pulseRateMeter/pulseRateMeter-Prefix.pch";
+				INFOPLIST_FILE = "pulseRateMeterTests/pulseRateMeterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6A7D323C1683F35D008751BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pulseRateMeter.app/pulseRateMeter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pulseRateMeter/pulseRateMeter-Prefix.pch";
+				INFOPLIST_FILE = "pulseRateMeterTests/pulseRateMeterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A7D31F81683F35D008751BB /* Build configuration list for PBXProject "pulseRateMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7D32351683F35D008751BB /* Debug */,
+				6A7D32361683F35D008751BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A7D32371683F35D008751BB /* Build configuration list for PBXNativeTarget "pulseRateMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7D32381683F35D008751BB /* Debug */,
+				6A7D32391683F35D008751BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A7D323A1683F35D008751BB /* Build configuration list for PBXNativeTarget "pulseRateMeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A7D323B1683F35D008751BB /* Debug */,
+				6A7D323C1683F35D008751BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A7D31F51683F35D008751BB /* Project object */;
+}
