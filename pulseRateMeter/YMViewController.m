@@ -9,7 +9,7 @@
 #import "YMViewController.h"
 
 @interface YMViewController ()
-
+@property (nonatomic, strong) YMPulseRateMater* pulseRateMeter;
 @end
 
 @implementation YMViewController
@@ -17,13 +17,29 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.pulseRateMeter = [YMPulseRateMater new];
+    [self.pulseRateMeter setDelegate:self];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
+- (void)pulseRateMeterStartMeasureing:(id)sender
+{
+    [self.pulseRateLabel setText:@"calcurating..."];
+}
+
+- (void)pulseRateMeter:(id)sender completeWithPulseRate:(float)pulseRate
+{
+    [self.pulseRateLabel setText:[NSString stringWithFormat:@"%.2f", pulseRate]];
+    [self.startButton setEnabled:YES];
+}
+
+- (IBAction)tapStart:(id)sender {
+    [self.startButton setEnabled:NO];
+    [self.pulseRateLabel setText:@"start!!"];
+    [self.pulseRateMeter start];
+}
 @end

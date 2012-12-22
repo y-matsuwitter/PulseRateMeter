@@ -23,6 +23,16 @@
 		6A7D32291683F35D008751BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D32041683F35D008751BB /* Foundation.framework */; };
 		6A7D32311683F35D008751BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A7D322F1683F35D008751BB /* InfoPlist.strings */; };
 		6A7D32341683F35D008751BB /* pulseRateMeterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7D32331683F35D008751BB /* pulseRateMeterTests.m */; };
+		6A7D32421683F387008751BB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D32411683F387008751BB /* QuartzCore.framework */; };
+		6A7D32441683F3BE008751BB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D32431683F3BD008751BB /* CoreMedia.framework */; };
+		6A7D32461683F3C4008751BB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D32451683F3C4008751BB /* CoreVideo.framework */; };
+		6A7D32481683F3D8008751BB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D32471683F3D8008751BB /* MobileCoreServices.framework */; };
+		6A7D324A1683F833008751BB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D32491683F833008751BB /* AVFoundation.framework */; };
+		6A7D32C016840FFA008751BB /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D32BF16840FFA008751BB /* Accelerate.framework */; };
+		6A7D32C216841004008751BB /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D32C116841004008751BB /* AssetsLibrary.framework */; };
+		6A7D32C41684100D008751BB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D32C31684100D008751BB /* ImageIO.framework */; };
+		6A7D32C616841014008751BB /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D32C516841014008751BB /* CoreImage.framework */; };
+		6A7D32F5168666D0008751BB /* YMPulseRateMater.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7D32F4168666D0008751BB /* YMPulseRateMater.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +68,17 @@
 		6A7D32301683F35D008751BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A7D32321683F35D008751BB /* pulseRateMeterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pulseRateMeterTests.h; sourceTree = "<group>"; };
 		6A7D32331683F35D008751BB /* pulseRateMeterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pulseRateMeterTests.m; sourceTree = "<group>"; };
+		6A7D32411683F387008751BB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6A7D32431683F3BD008751BB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6A7D32451683F3C4008751BB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		6A7D32471683F3D8008751BB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6A7D32491683F833008751BB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6A7D32BF16840FFA008751BB /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		6A7D32C116841004008751BB /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		6A7D32C31684100D008751BB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		6A7D32C516841014008751BB /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		6A7D32F3168666D0008751BB /* YMPulseRateMater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMPulseRateMater.h; sourceTree = "<group>"; };
+		6A7D32F4168666D0008751BB /* YMPulseRateMater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMPulseRateMater.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +86,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A7D32C616841014008751BB /* CoreImage.framework in Frameworks */,
+				6A7D32C41684100D008751BB /* ImageIO.framework in Frameworks */,
+				6A7D32C216841004008751BB /* AssetsLibrary.framework in Frameworks */,
+				6A7D32C016840FFA008751BB /* Accelerate.framework in Frameworks */,
+				6A7D324A1683F833008751BB /* AVFoundation.framework in Frameworks */,
+				6A7D32481683F3D8008751BB /* MobileCoreServices.framework in Frameworks */,
+				6A7D32461683F3C4008751BB /* CoreVideo.framework in Frameworks */,
+				6A7D32441683F3BE008751BB /* CoreMedia.framework in Frameworks */,
+				6A7D32421683F387008751BB /* QuartzCore.framework in Frameworks */,
 				6A7D32031683F35D008751BB /* UIKit.framework in Frameworks */,
 				6A7D32051683F35D008751BB /* Foundation.framework in Frameworks */,
 				6A7D32071683F35D008751BB /* CoreGraphics.framework in Frameworks */,
@@ -106,6 +136,15 @@
 		6A7D32011683F35D008751BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6A7D32C516841014008751BB /* CoreImage.framework */,
+				6A7D32C31684100D008751BB /* ImageIO.framework */,
+				6A7D32C116841004008751BB /* AssetsLibrary.framework */,
+				6A7D32BF16840FFA008751BB /* Accelerate.framework */,
+				6A7D32491683F833008751BB /* AVFoundation.framework */,
+				6A7D32471683F3D8008751BB /* MobileCoreServices.framework */,
+				6A7D32451683F3C4008751BB /* CoreVideo.framework */,
+				6A7D32431683F3BD008751BB /* CoreMedia.framework */,
+				6A7D32411683F387008751BB /* QuartzCore.framework */,
 				6A7D32021683F35D008751BB /* UIKit.framework */,
 				6A7D32041683F35D008751BB /* Foundation.framework */,
 				6A7D32061683F35D008751BB /* CoreGraphics.framework */,
@@ -122,6 +161,8 @@
 				6A7D321A1683F35D008751BB /* YMViewController.h */,
 				6A7D321B1683F35D008751BB /* YMViewController.m */,
 				6A7D321D1683F35D008751BB /* YMViewController.xib */,
+				6A7D32F3168666D0008751BB /* YMPulseRateMater.h */,
+				6A7D32F4168666D0008751BB /* YMPulseRateMater.m */,
 				6A7D32091683F35D008751BB /* Supporting Files */,
 			);
 			path = pulseRateMeter;
@@ -274,6 +315,7 @@
 				6A7D320F1683F35D008751BB /* main.m in Sources */,
 				6A7D32131683F35D008751BB /* YMAppDelegate.m in Sources */,
 				6A7D321C1683F35D008751BB /* YMViewController.m in Sources */,
+				6A7D32F5168666D0008751BB /* YMPulseRateMater.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +490,7 @@
 				6A7D32391683F35D008751BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A7D323A1683F35D008751BB /* Build configuration list for PBXNativeTarget "pulseRateMeterTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +499,7 @@
 				6A7D323C1683F35D008751BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

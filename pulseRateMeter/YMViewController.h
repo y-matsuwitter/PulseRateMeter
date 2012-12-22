@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YMPulseRateMater.h"
 
-@interface YMViewController : UIViewController
+@interface YMViewController : UIViewController<YMPulseRateMeterDelegate>
+@property (strong, nonatomic) IBOutlet UIButton *startButton;
+@property (strong, nonatomic) IBOutlet UILabel *pulseRateLabel;
+- (IBAction)tapStart:(id)sender;
 
 @end
