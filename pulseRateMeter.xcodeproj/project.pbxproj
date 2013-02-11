@@ -32,7 +32,7 @@
 		6A7D32C216841004008751BB /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D32C116841004008751BB /* AssetsLibrary.framework */; };
 		6A7D32C41684100D008751BB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D32C31684100D008751BB /* ImageIO.framework */; };
 		6A7D32C616841014008751BB /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A7D32C516841014008751BB /* CoreImage.framework */; };
-		6A7D32F5168666D0008751BB /* YMPulseRateMater.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7D32F4168666D0008751BB /* YMPulseRateMater.m */; };
+		6AC79AB616C92F62008030DA /* YMPulseRateMater.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC79AB516C92F62008030DA /* YMPulseRateMater.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,8 +77,8 @@
 		6A7D32C116841004008751BB /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		6A7D32C31684100D008751BB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		6A7D32C516841014008751BB /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
-		6A7D32F3168666D0008751BB /* YMPulseRateMater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMPulseRateMater.h; sourceTree = "<group>"; };
-		6A7D32F4168666D0008751BB /* YMPulseRateMater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMPulseRateMater.m; sourceTree = "<group>"; };
+		6AC79AB416C92F62008030DA /* YMPulseRateMater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMPulseRateMater.h; sourceTree = SOURCE_ROOT; };
+		6AC79AB516C92F62008030DA /* YMPulseRateMater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMPulseRateMater.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,13 +156,13 @@
 		6A7D32081683F35D008751BB /* pulseRateMeter */ = {
 			isa = PBXGroup;
 			children = (
+				6AC79AB416C92F62008030DA /* YMPulseRateMater.h */,
+				6AC79AB516C92F62008030DA /* YMPulseRateMater.m */,
 				6A7D32111683F35D008751BB /* YMAppDelegate.h */,
 				6A7D32121683F35D008751BB /* YMAppDelegate.m */,
 				6A7D321A1683F35D008751BB /* YMViewController.h */,
 				6A7D321B1683F35D008751BB /* YMViewController.m */,
 				6A7D321D1683F35D008751BB /* YMViewController.xib */,
-				6A7D32F3168666D0008751BB /* YMPulseRateMater.h */,
-				6A7D32F4168666D0008751BB /* YMPulseRateMater.m */,
 				6A7D32091683F35D008751BB /* Supporting Files */,
 			);
 			path = pulseRateMeter;
@@ -315,7 +315,7 @@
 				6A7D320F1683F35D008751BB /* main.m in Sources */,
 				6A7D32131683F35D008751BB /* YMAppDelegate.m in Sources */,
 				6A7D321C1683F35D008751BB /* YMViewController.m in Sources */,
-				6A7D32F5168666D0008751BB /* YMPulseRateMater.m in Sources */,
+				6AC79AB616C92F62008030DA /* YMPulseRateMater.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
